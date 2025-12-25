@@ -1,9 +1,8 @@
----
-name: reviewdiff
-description: Review all git changes and suggest what you would have done differently
----
+# Review git diff and suggest improvements
 
-Review the current git changes thoroughly using subagents:
+Analyze your git diff with subagents, assess approach quality, and suggest concrete improvements.
+
+## Steps
 
 1. **Explore the git diff** - Use the Task tool with subagent_type='Explore' to examine:
    - All staged changes (`git diff --cached`)
