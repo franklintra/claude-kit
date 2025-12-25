@@ -1,6 +1,6 @@
 {
   "name": "kit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Developer workflow commands for Claude Code",
   "author": {
     "name": "franklintra"

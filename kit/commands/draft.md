@@ -34,7 +34,12 @@ Stage changes, create a descriptive branch, commit, and open a PR to the target 
    - Stage relevant changes (files from this conversation, or all if fresh)
    - Run `git diff --cached` to review staged changes
    - Run `git log --oneline -5` to see commit style
-   - Generate conventional commit message (same rules as /kit:ship)
+   - Generate conventional commit message:
+     - Type: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `chore`, `ci`, `build`
+     - Optionally infer a scope if clearly relevant
+     - Format: `<type>(<scope>): <subject>` (subject ≤50 chars, imperative mood)
+     - Add optional body wrapped at 72 characters
+     - DO NOT include any co-author lines or any mention of "Claude", "co-author", or "AI"
    - Execute `git commit -m "<message>"`
 
 6. **Push and create PR:**
