@@ -8,6 +8,7 @@ kit/
 └── commands/
     ├── draft.md     → /kit:draft
     ├── review.md    → /kit:review
+    ├── full-review.md → /kit:full-review
     ├── ship.md      → /kit:ship
     └── syncmd.md    → /kit:syncmd
 ```

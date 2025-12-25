@@ -16,6 +16,9 @@ Creates a branch and PR from your local changes. Analyzes the diff to generate s
 ### `/kit:syncmd`
 Crawls your codebase and updates documentation to match reality. Handles `README.md`, `CLAUDE.md`, `AGENTS.md`, and any other markdown files it finds.
 
+### `/kit:full-review`
+Reviews the entire codebase for anti-patterns, security issues, performance concerns, and technical debt. Presents findings by severity and asks clarifying questions before offering fixes.
+
 ## Install
 
 ```bash
